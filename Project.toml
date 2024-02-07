@@ -1,0 +1,13 @@
+name = "qSVM"
+uuid = "a6236608-c4d8-4518-99db-74d8218abb3a"
+authors = ["Adam Ulrich <a_ulrich@utb.cz>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
