@@ -8,16 +8,9 @@ makedocs(;
     authors="Adam Ulrich <a_ulrich@utb.cz>",
     sitename="qSVM.jl",
     format=Documenter.HTML(;
-        canonical="https://NoveltyML.github.io/qSVM.jl",
-        edit_link="main",
-        assets=String[],
+        canonical="https://NoveltyML.github.io/qSVM.jl", edit_link="main", assets=String[]
     ),
-    pages=[
-        "Home" => "index.md",
-    ],
+    pages=["Home" => "index.md"],
 )
 
-deploydocs(;
-    repo="github.com/NoveltyML/qSVM.jl",
-    devbranch="main",
-)
+deploydocs(; repo="github.com/NoveltyML/qSVM.jl", devbranch="main")
